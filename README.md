@@ -43,33 +43,8 @@ Incidentes Raciais
 Método	Endpoint	Descrição
 GET	/incidents	Lista todos os incidentes
 POST	/incidents	Reporta novo incidente
-🗂️ Estrutura do Projeto
-src/
-├── controllers/       # Lógica das rotas
-├── models/            # Modelos de dados
-├── routes/            # Definição de rotas
-├── services/          # Regras de negócio
-├── database/          # Dados iniciais
-└── app.js             # Configuração do servidor
-📝 Modelos de Dados
-Recurso Educacional
-javascript
-{
-  "id": 1,
-  "title": "Pequeno Manual Antirracista",
-  "description": "Livro sobre racismo estrutural",
-  "type": "livro" // livro, filme, artigo, organização
-}
-Incidente Racial
-javascript
-{
-  "id": 1,
-  "date": "2023-10-15",
-  "location": "São Paulo, SP",
-  "description": "Caso de discriminação",
-  "severity": "alta" // baixa, média, alta
-}
-💡 Exemplos de Uso
+
+
 Criar Recurso
 bash
 curl -X POST http://localhost:3000/api/resources \
